@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    background-color: #add8e6;
+    background-image: url(Assets/musicThought.png);
+    background-size: cover;
+  }
+  
+  .wrapper {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .controls, .results {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  form p:nth-of-type(1) {
+    margin-top: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: rgb(15, 14, 14);
+    text-align: center;
+  }
+
+  h5 {
+    text-align: center;
+    color: lightslategrey;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  article {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+  }
